@@ -1,0 +1,5 @@
+/target/
+*.vst3/
+*.clap
+*.so
+*.dylib

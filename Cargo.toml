@@ -1,0 +1,17 @@
+[package]
+name = "copal"
+version = "0.1.0"
+edition = "2024"
+description = "A simple polyphonic VST3 and CLAP synthesizer"
+license = "MIT"
+
+[workspace]
+members = ["xtask"]
+default-members = ["."]
+resolver = "2"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git" }
